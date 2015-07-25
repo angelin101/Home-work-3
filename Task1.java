@@ -1,5 +1,5 @@
-/**
- * Created by Ангелин on 24.07.2015.
+﻿/**
+ * Created by Ангелин on 25.07.2015.
  */
 public class Task1 {
     private int a, b, res;
@@ -7,10 +7,10 @@ public class Task1 {
     public int getGenericDenominator(int firstNumber, int secondNumber){
         a = firstNumber;
         b = secondNumber;
-        for(int i = 10; i > 1; i--){
+        for(int i = (a<=b) ? b : a; i > 0; i--){
             if (a%i == 0 && b%i== 0) {
                 res = i;
-                return;
+                break;
             }
         }
         return res;
