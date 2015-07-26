@@ -6,6 +6,8 @@ public class Task3 {
     // Метод проверяет являеться ли заданое число простым.
     // Если число простое (делиться только на себя и на 1), тогда метод возвращает true!
     public boolean isPrimeNumber(int val){
+        if (val < 2)
+            return false;
         for (int i = 2; i < val; i++)
             if (val % i == 0)
                 return false;
