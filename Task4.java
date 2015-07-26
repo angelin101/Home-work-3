@@ -1,4 +1,3 @@
-package HomeWork.homeWork3;
 
 /**
  * Created by Ангелин on 26.07.2015.
