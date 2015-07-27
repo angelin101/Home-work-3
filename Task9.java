@@ -5,6 +5,8 @@ package HomeWork.homeWork3;
  */
 public class Task9 {
     public void print6DArray(){
+        // Метод который заполняет шестимерный массив (с двумя значениями в каждом измерении)
+        // числами из натурального ряда и выводит на консоль!
         int[][][][][][] array = new int[2][2][2][2][2][2];
         int val = 1;
         for (int a = 0; a < array.length; a++)
